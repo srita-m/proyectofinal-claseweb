@@ -1,0 +1,38 @@
+@import 'extends';
+
+h2 {
+    color:#F2948F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+p {
+  @extend %textos;
+}
+
+a {
+    color:dimgrey;
+    text-decoration:none;
+}
+
+
+.boton{
+    background-color:black;
+    padding:30px;
+    color:white;
+    text-decoration: none;
+    font-family:'Roboto', sans-serif; 
+    font-weight:lighter;
+    text-transform:uppercase;
+}
+
+.boton:hover {
+    background-color:#F2948F;
+    color: black;
+}
+
+.boton:active {
+    background-color:#F2C2C2;
+    color: black;
+}

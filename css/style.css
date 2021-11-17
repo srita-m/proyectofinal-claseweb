@@ -1,0 +1,335 @@
+footer ul li, footer p, .container1 .grid-container-uno label, p, nav ul li {
+  color: dimgrey;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav .container-fluid a {
+  color: dimgrey;
+  text-decoration: none;
+}
+nav .container-fluid a #logo {
+  width: 250px;
+}
+nav ul {
+  display: table;
+  float: right;
+}
+nav ul li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+  padding: 1px;
+  position: flex;
+  display: inline-block;
+  width: 150px;
+  border-top: 2px, solid, black;
+  border-bottom: 2px, solid, black;
+}
+
+footer ul li, footer p, .container1 .grid-container-uno label, p, nav ul li {
+  color: dimgrey;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+h2 {
+  color: #F2948F;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+a {
+  color: dimgrey;
+  text-decoration: none;
+}
+
+.boton {
+  background-color: black;
+  padding: 30px;
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.boton:hover {
+  background-color: #F2948F;
+  color: black;
+}
+
+.boton:active {
+  background-color: #F2C2C2;
+  color: black;
+}
+
+footer ul li, footer p, .container1 .grid-container-uno label, nav ul li, p {
+  color: dimgrey;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container1 .grid-container-dos {
+  display: grid;
+  width: 80%;
+  grid-template-columns: 30% 70%;
+  gap: 10px;
+  margin: 40px;
+}
+.container1 .grid-container-dos #p-uno {
+  display: block;
+  float: right;
+  margin-top: 5px;
+}
+.container1 .grid-container-uno {
+  display: grid;
+  width: 80%;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  margin: 40px;
+}
+.container1 .grid-container-uno .cris-A {
+  display: inline;
+  text-align: left;
+  line-height: normal;
+}
+.container1 .grid-container-uno .Num {
+  width: 30%;
+  float: left;
+}
+.container1 .grid-container-uno .Item-tres {
+  width: 70%;
+  float: left;
+}
+.container1 .grid-container-uno .img-dos {
+  width: 100%;
+}
+.container1 .grid-container-uno .img-dos:hover {
+  opacity: 70%;
+  height: 100%;
+}
+.container1 .grid-container-uno .grid-itemA {
+  transition: all 0.5s ease;
+}
+.container1 .grid-container-uno .animar:hover {
+  transform: scale(95%);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.container1 .grid-container-uno .p-tres {
+  display: inline-block;
+  padding-top: 5%;
+}
+.container1 .grid-container-uno .img-tres {
+  width: 100%;
+  float: right;
+  display: block;
+}
+.container1 .grid-container-uno label {
+  padding: 2px;
+  margin: 2px;
+}
+.container1 .grid-container-uno input[type=text], .container1 .grid-container-uno [type=email] {
+  border: 1px solid #f6f6f6;
+  background-color: #f6f6f6;
+  width: 100%;
+  padding: 1%;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-bottom: 2%;
+}
+.container1 .grid-container-uno input[type=submit] {
+  background-color: black;
+  color: white;
+  width: 20%;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  float: right;
+}
+.container1 .grid-container-uno textarea {
+  border: 1px solid #f6f6f6;
+  background-color: #f6f6f6;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  padding: 1%;
+  margin-bottom: 2%;
+}
+.container1 .grid-container {
+  display: grid;
+  background-color: lightgrey;
+  width: 80%;
+  padding: 5%;
+  margin-top: 3%;
+  margin-bottom: 30px;
+}
+.container1 .grid-container .Item-uno {
+  width: 90%;
+  padding: 20px;
+}
+.container1 .grid-container .Item-dos {
+  width: 90%;
+  padding: 10px;
+}
+.container1 .grid-container #p-dos {
+  display: block;
+  float: left;
+}
+.container1 .grid-container .cris-A {
+  display: inline;
+  text-align: left;
+  line-height: normal;
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container1 .bloque-uno {
+  display: inline-block;
+  width: 95%;
+  height: auto;
+  margin: auto;
+  padding: 5px;
+  align-items: center;
+}
+.container1 .bloque-uno #cris-A {
+  display: inline;
+  text-align: left;
+  line-height: normal;
+}
+.container1 .bloque-uno .img-uno {
+  width: 100%;
+}
+.container1 .bloque-uno .Title {
+  float: right;
+  display: block;
+  text-align: right;
+}
+.container1 .bloque-uno #p-uno, .container1 .bloque-uno #p-cuatro, .container1 .bloque-uno #p-cinco, .container1 .bloque-uno #p-seis {
+  float: right;
+}
+.container1 .bloque-uno .p-tres {
+  display: inline-block;
+  padding-top: 5%;
+}
+.container1 .bloque-uno .p-cuatro {
+  width: 60%;
+  display: inline-block;
+  padding-top: 2%;
+}
+.container1 .bloque-tres {
+  background-color: lightsalmon;
+  width: 35%;
+  padding: 20px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.container1 .bloque-tres .animarse :hover {
+  transform: scale(80%);
+}
+.container1 .bloque-tres .img-cuatro {
+  width: 30%;
+  float: left;
+  display: block;
+  padding-right: 30px;
+}
+.container1 .bloque-tres .img-cuatroA {
+  width: 70%;
+  display: block;
+  margin: 0px auto;
+  transition: all 0.5s ease-in-out;
+}
+.container1 .bloque-tres .serv-h2 {
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+.container1 .bloque-tres .subtitulo {
+  padding-left: 10%;
+  display: inline-block;
+  font-size: 20px;
+}
+
+footer ul li, footer p, nav ul li, p, .container1 .grid-container-uno label {
+  color: dimgrey;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+  height: 200px;
+}
+footer p {
+  text-decoration: none;
+}
+footer ul li {
+  margin: 10px;
+  padding: 1px;
+  position: flex;
+  display: inline-block;
+  width: 150px;
+}
+footer ul li a {
+  color: white;
+  padding: 10px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-container-uno {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-container-dos {
+    grid-template-columns: 1fr;
+  }
+
+  .boton {
+    margin: auto;
+  }
+}
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-container-uno {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-container-dos {
+    grid-template-columns: 1fr;
+  }
+}
+nav ul li, p, .container1 .grid-container-uno label, footer p, footer ul li {
+  color: dimgrey;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */

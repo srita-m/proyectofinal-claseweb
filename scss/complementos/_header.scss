@@ -1,0 +1,38 @@
+@import 'extends';
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    .container-fluid{
+        a {
+            color:dimgrey;
+            text-decoration:none;
+        
+            #logo{
+                width: 250px;
+            }  
+    }     
+    }
+
+
+    ul {
+    display:table; 
+    float:right;
+        li {
+            @extend %textos;
+            list-style-type: none;
+            text-decoration: none;
+            margin: 10px;
+            padding:1px;
+            position: flex;
+            display:inline-block;
+            width: 150px;
+            border-top: 2px, solid,black;
+            border-bottom:2px,solid, black;
+            
+            }
+    }
+}

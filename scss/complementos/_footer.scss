@@ -1,0 +1,29 @@
+@import 'listas';
+@import 'extends';
+
+footer {
+    background-color: nth($colores, 2);
+    padding: 10px;
+    height: 200px;
+    p {
+        text-decoration: none;
+         @extend %textos;
+    }
+    ul {
+        li {
+            @extend %textos;
+            margin: 10px;
+            padding: 1px;
+            position: flex;
+            display: inline-block;
+            width: 150px;
+            a {
+                    color: nth($colores, 4);
+                    padding:10px;
+                    list-style-type: none;
+                    text-decoration: none;
+                }
+
+            }
+    }
+}

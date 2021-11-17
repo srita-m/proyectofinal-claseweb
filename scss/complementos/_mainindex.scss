@@ -1,0 +1,156 @@
+@import 'listas';
+@import 'extends';
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .grid-container-dos {
+        display: grid;
+        width: 80%;
+        grid-template-columns: 30% 70%;
+        gap:10px;
+        margin: 40px;
+
+       #p-uno {
+                display: block;
+                float: right;
+                margin-top: 5px;
+            }
+
+        
+    }
+
+    .grid-container-uno {
+        display: grid;
+        width: 80%;
+        grid-template-columns: 50% 50%;
+        gap:10px;
+        margin: 40px;
+
+        .cris-A {
+            display: inline;
+            text-align: left;
+            line-height: normal;
+        }
+
+        .Num {
+            width: 30%;
+            float: left;
+        }
+        
+        .Item-tres {
+            width: 70%;
+            float: left;
+        }
+
+        .img-dos {
+            width: 100%;
+        }
+        
+        .img-dos:hover{
+            opacity: 70%;  
+            height: 100%;  
+            
+        }
+
+        .grid-itemA{
+            transition: all 0.5s ease; 
+        }
+        
+        .animar:hover{
+            transform: scale(95%); 
+            background-color:rgba(0,0,0,0.8);
+        }
+
+        
+        .p-tres{
+            display: inline-block;
+            padding-top:5%;
+        }
+
+        .img-tres {
+            width: 100%;
+            float: right;
+            display: block;
+        }
+
+        
+        label{
+            @extend %textos;
+            padding:2px;
+            margin: 2px;
+
+        }
+
+        input[type="text"],[type="email"] {
+            border:1px solid #f6f6f6;
+            background-color:#f6f6f6;
+            width:100%;
+            padding: 1%;
+            font-family: 'Roboto', sans-serif;  
+            font-size: 16px;
+            margin-bottom:2%;
+        }
+
+        input[type="submit"] {
+            background-color:nth($colores, 2);
+            color: nth($colores, 4);
+            width: 20%;
+            border: none;
+            font-family: 'Roboto', sans-serif;  
+            font-size: 16px;
+            float: right;
+        }
+
+        textarea{
+            border:1px solid #f6f6f6;
+            background-color:#f6f6f6;
+            width: 100%;
+            font-family: 'Roboto', sans-serif;  
+            font-size: 16px;
+            padding: 1%;
+            margin-bottom:2%;
+        }
+    }
+ 
+    .grid-container{
+        display: grid;
+        background-color: nth($colores, 5);
+        width: 80%;
+        padding: 5%;
+        margin-top: 3%;
+        margin-bottom: 30px;
+      
+        .Item-uno{
+            width: 90%;
+            padding: 20px;
+        }
+
+        .Item-dos{
+            width: 90%;
+            padding: 10px;
+        }
+         
+            
+        #p-dos {
+                display: block;
+                float: left;
+
+           
+        }
+
+        .cris-A {
+            display: inline;
+            text-align: left;
+            line-height: normal;
+        }
+
+     
+    }
+   
+          
+  
+}
+

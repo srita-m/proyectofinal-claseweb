@@ -1,0 +1,94 @@
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    .bloque-uno{
+        display: inline-block;
+        width: 95%;
+        height: auto;
+        margin: auto;
+        padding: 5px;
+        align-items: center;
+
+            #cris-A {
+                display: inline;
+                text-align: left;
+                line-height: normal;
+            }
+
+            .img-uno {
+                width: 100%;
+            }
+            
+            .Title {
+                float: right;
+                display: block;
+                text-align: right;
+            }
+
+            #p-uno, #p-cuatro, #p-cinco, #p-seis {
+                float: right;
+            }
+
+            .p-tres{
+                display: inline-block;
+                padding-top:5%;
+            }
+
+            .p-cuatro{
+                width:60%;
+                display: inline-block;
+                padding-top: 2%;
+            }
+
+            
+    }
+
+    .bloque-tres {
+        background-color: lightsalmon;
+        width: 35%;
+        padding:20px;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+        .animarse {
+            :hover{
+            transform: scale(80%);
+            }
+        }
+          
+        .img-cuatro {
+            width: 30%;
+            float: left;
+            display: block;
+            padding-right:30px;
+        }
+        
+        .img-cuatroA {
+            width: 70%;
+            display:block;
+            margin: 0px auto;
+            transition: all 0.5s ease-in-out;
+        }
+
+        .serv-h2{
+            color: white;
+            text-align: center;
+            margin:10px;
+        }
+
+        .subtitulo{
+            padding-left: 10%;
+            display: inline-block;
+            font-size: 20px;
+        
+        }
+
+      
+       
+    }
+
+}
